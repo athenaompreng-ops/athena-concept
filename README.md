@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./docs/images/athena-logo.png" alt="ATHENA Logo" width="180"/>
+  <img src="./docs/images/athena-logo.png" alt="ATHENA Logo" width="140"/>
 </p>
 
 <h1 align="center">A.T.H.E.N.A</h1>
-<h3 align="center">Advanced Threat Handling & Encryption Network Application</h3>
-<p align="center"><em>Platform Perlindungan Visual Berbasis AI untuk Karya Lokal Indonesia</em></p>
+<h4 align="center">Advanced Threat Handling & Encryption Network Application</h4>
+<p align="center"><em>AI-Powered Visual Protection Platform for Indonesian Cultural Heritage</em></p>
 
 <p align="center">
   <strong>「 Turn Your Image Into Invisible — Untrackable, Untrainable, Yours. 」</strong>
@@ -13,10 +13,10 @@
 <br/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Pre--Revenue-blue?style=flat-square" alt="Status"/>
-  <img src="https://img.shields.io/badge/Competition-FIKSI%202026-gold?style=flat-square" alt="FIKSI"/>
-  <img src="https://img.shields.io/badge/Category-Teknologi%20Digital-purple?style=flat-square" alt="Category"/>
-  <img src="https://img.shields.io/badge/License-Proprietary-red?style=flat-square" alt="License"/>
+  <a href="#"><img src="https://img.shields.io/badge/Status-Pre--Revenue-0969DA?style=for-the-badge" alt="Status"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/FIKSI-2026-C9A84C?style=for-the-badge" alt="FIKSI"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Category-Teknologi%20Digital-8B5CF6?style=for-the-badge" alt="Category"/></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-Proprietary-EF4444?style=for-the-badge" alt="License"/></a>
 </p>
 
 <p align="center">
@@ -29,92 +29,92 @@
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/>
   <img src="https://img.shields.io/badge/TensorFlow.js-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TF.js"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black" alt="GSAP"/>
+  <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion"/>
   <img src="https://img.shields.io/badge/Cloudflare%20R2-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="R2"/>
   <img src="https://img.shields.io/badge/Midtrans-003087?style=flat-square" alt="Midtrans"/>
   <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel"/>
-  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" alt="Railway"/>
 </p>
 
 ---
 
-## Daftar Isi
+## Table of Contents
 
-- [Tentang ATHENA](#tentang-athena)
-- [Masalah yang Diselesaikan](#masalah-yang-diselesaikan)
-- [Solusi: 4A Shield](#solusi-4a-shield)
-- [Arsitektur Sistem](#arsitektur-sistem)
+- [Executive Summary](#executive-summary)
+- [The Problem](#the-problem)
+- [Solution: 4A Shield](#solution-4a-shield)
+- [System Architecture](#system-architecture)
 - [Tech Stack](#tech-stack)
-- [Model Bisnis](#model-bisnis)
+- [Business Model](#business-model)
 - [Roadmap & Timeline](#roadmap--timeline)
-- [Struktur Repository](#struktur-repository)
-- [Cara Menjalankan](#cara-menjalankan)
-- [Untuk Dewan Juri](#untuk-dewan-juri)
-- [Tim](#tim)
-- [Lisensi](#lisensi)
+- [Repository Structure](#repository-structure)
+- [Quick Start](#quick-start)
+- [For FIKSI Judges](#for-fiksi-judges)
+- [Team](#team)
+- [License](#license)
 
 ---
 
-## Tentang ATHENA
+## Executive Summary
 
-**ATHENA** adalah platform SaaS pertama di Indonesia yang memungkinkan siapa pun — dari pengrajin batik UMKM, seniman wayang, kreator konten, hingga individu biasa — **melindungi foto dan karya visual mereka dari eksploitasi AI** dengan teknologi adversarial perturbation.
+**ATHENA** is the first Indonesian SaaS platform that enables anyone — from batik artisans and wayang artists to content creators and everyday individuals — to **make their photos invisible to AI** using adversarial perturbation technology.
 
-Nama ATHENA terinspirasi dari **Dewi Athena** dalam mitologi Yunani — simbol **kebijaksanaan**, **strategi perlindungan**, dan **kerajinan tangan**. Tiga nilai ini merepresentasikan misi produk: memberikan perlindungan cerdas dan terukur terhadap eksploitasi karya dan identitas visual di era AI generatif.
+Inspired by the Greek **Goddess Athena** — symbol of **wisdom**, **strategic defense**, and **craftsmanship** — the platform embeds pixel-level modifications (≤ 8/255) that are invisible to the human eye but mathematically devastating to AI gradient descent.
 
-> ATHENA bukan sekadar "proteksi foto" — ATHENA adalah **benteng digital warisan budaya Indonesia**, dibuat oleh pelajar Indonesia, untuk seniman dan pengrajin Indonesia.
+> 💡 ATHENA is not just "photo protection" — it is a **digital fortress for Indonesian cultural heritage**, built by Indonesian students, for Indonesian artists and craftspeople.
 
-### Relevansi FIKSI 2026
+### FIKSI 2026 Alignment
 
-ATHENA secara organik menyentuh **dua pilar utama** FIKSI 2026:
+ATHENA uniquely intersects **two core pillars** of FIKSI 2026:
 
-| Pilar | Implementasi di ATHENA |
-|-------|----------------------|
-| **Teknologi Digital** | Platform AI/ML berbasis React, NestJS, Python — dibangun oleh siswa PPLG |
-| **Ekonomi Kreatif Berbasis Kearifan Lokal** | Melindungi batik, tenun, songket, ukiran dari eksploitasi AI global |
+| Pillar | Implementation |
+|--------|---------------|
+| **Digital Technology** | AI/ML platform (React, NestJS, Python) built by PPLG students |
+| **Creative Economy + Local Wisdom** | Protecting batik, tenun, songket, and carvings from global AI exploitation |
 
 ---
 
-## Masalah yang Diselesaikan
+## The Problem
 
-Setiap hari, lebih dari **40 juta foto** diunggah pengguna Indonesia ke platform digital. Tanpa sepengetahuan mereka, foto-foto ini di-scrape oleh perusahaan AI global untuk melatih model.
+Every day, over **40 million photos** are uploaded by Indonesian users to digital platforms. Without their knowledge, these photos are scraped by global AI companies to train models.
 
 <table>
 <tr>
 <td width="50%">
 
-### Dampak Individual & Gender
+### 🧑‍🤝‍🧑 Individual & Gender Impact
 
-- Foto wajah perempuan digunakan melatih model **deepfake NSFW** tanpa izin
-- Foto anak-anak menjadi bagian **database biometrik asing**
-- Korban KBGO mengalami foto dimanipulasi AI menjadi konten tidak pantas
+- Women’s photos used to train **deepfake NSFW models** without consent
+- Children’s photos become part of **foreign biometric databases**
+- KBGO victims have photos manipulated by AI into explicit content
 
 </td>
 <td width="50%">
 
-### Dampak UMKM & Ekonomi Kreatif
+### 🎨 MSME & Creative Economy Impact
 
-- Motif **batik tulis, tenun ikat, songket** masuk dataset AI generatif
-- AI bisa **meniru tanpa bayar** dan tanpa izin seniman
-- Warisan visual budaya Indonesia **dieksploitasi tanpa kompensasi**
+- **Batik tulis, tenun ikat, songket** patterns enter AI generative datasets
+- AI can **replicate without paying** or obtaining artist permission
+- Indonesian cultural visual heritage **exploited without compensation**
 
 </td>
 </tr>
 </table>
 
-### Dasar Ilmiah
+### Scientific Foundation
 
-| Riset | Institusi | Temuan Kunci |
-|-------|-----------|-------------|
-| Witches Brew (2021) | Geiping et al. | Poisoning 0.1% data training = penurunan akurasi terukur |
-| Glaze (2023) | UChicago | Perturbasi efektif melindungi gaya seni dari AI pasca kompresi |
-| Nightshade (2023) | UChicago | 100 gambar beracun = konsep spesifik dalam model difusi rusak |
-| JPEG-Resistant Adv. | Guo et al. (2018) | Perturbasi bisa dirancang survive kompresi JPEG |
+| Research | Institution | Key Finding | ATHENA Implication |
+|----------|-------------|-------------|-------------------|
+| Witches Brew (2021) | Geiping et al. | Poisoning 0.1% training data = measurable accuracy drop | 100K ATHENA users = real impact on global AI models |
+| Glaze (2023) | UChicago | Perturbation protects art style from AI post-compression | Validates compression-aware approach for 4A Shield |
+| Nightshade (2023) | UChicago | 100 poisoned images = concept corruption in diffusion models | Realistic threshold for ATHENA’s network effect |
+| JPEG-Resistant Adv. | Guo et al. (2018) | Perturbation can survive JPEG compression | Technical basis for CA-PGD in server-side Shield |
 
 ---
 
-## Solusi: 4A Shield
+## Solution: 4A Shield
 
-ATHENA menyematkan **adversarial perturbation** — modifikasi piksel tak kasat mata (≤ 8/255) — yang mengacaukan proses gradient descent AI. Empat lapisan bekerja sinergis:
+ATHENA embeds **adversarial perturbation** — invisible pixel modifications (≤ 8/255) — that disrupt AI gradient descent. Four layers work in synergy:
 
 <table>
 <tr>
@@ -155,7 +155,7 @@ Selain 4A Shield, ATHENA menyematkan **Athena Seal** — invisible forensic wate
 
 ---
 
-## Arsitektur Sistem
+## System Architecture
 
 ATHENA menggunakan **arsitektur tiga jalur** yang dirancang untuk skenario penggunaan berbeda:
 
@@ -206,31 +206,30 @@ flowchart TB
 
 ## Tech Stack
 
-| Layer | Teknologi | Justifikasi |
-|-------|-----------|------------|
-| **Frontend** | React + Vite + TypeScript + TailwindCSS | PWA-ready, satu codebase web & mobile |
-| **State & Realtime** | Zustand + Socket.io | Real-time job progress, credit counter |
-| **Backend API** | NestJS + TypeScript (berbasis Express) | Modular, type-safe, enterprise-grade |
-| **Auth** | Supabase Auth (JWT) | Gratis hingga 50K user |
-| **Database** | PostgreSQL via Supabase | Data persisten (user, job, credit) |
+| Layer | Technology | Role |
+|-------|-----------|------|
+| **Frontend** | React 19 + Vite + TypeScript | Component-based PWA, strict type safety |
+| **UI/Animation** | Framer Motion + GSAP + Lenis | Scroll-driven animations, smooth scrolling, micro-interactions |
+| **3D/Visual** | Spline 3D + WebGL Shaders + Canvas | Immersive hero (black hole + star field + volumetric light rays) |
+| **Backend API** | NestJS + TypeScript (Express) | Modular, enterprise-grade API with dependency injection |
+| **Auth** | Supabase Auth (JWT) | Free up to 50K users |
+| **Database** | PostgreSQL via Supabase | Persistent data: users, jobs, credits, subscriptions |
 | **Cache & Queue** | Redis (Upstash) + BullMQ | Job queue, session, rate limiting |
-| **ML Pipeline** | Python + PyTorch + torchattacks | CA-PGD, ensemble attack, JPEG simulation |
+| **ML Pipeline** | Python + PyTorch + torchattacks | CA-PGD, ensemble attack, JPEG simulation layer |
 | **ML Cloud** | Replicate.com | Pay-per-use GPU inference |
 | **ML Client** | TensorFlow.js + ONNX.js | Free tier: browser-side processing |
 | **Storage** | Cloudflare R2 | S3-compatible, $0.015/GB |
-| **Security** | AES-256 + ClamAV + magic bytes | Defense-in-depth |
-| **Watermark** | Python DCT steganography | Athena Seal — invisible forensic watermark |
-| **Payment** | Midtrans | QRIS, GoPay, OVO, kartu — terluas di Indonesia |
-| **Frontend Deploy** | Vercel | Global CDN, auto-deploy |
-| **Backend Deploy** | Railway.app | Docker support, terjangkau |
-| **CI/CD** | GitHub Actions | Auto test + deploy |
-| **Monitoring** | BetterStack | Uptime, logs, alerting |
+| **Security** | AES-256 + ClamAV + magic bytes | Defense-in-depth at every upload layer |
+| **Payment** | Midtrans | QRIS, GoPay, OVO, cards — widest coverage in Indonesia |
+| **Deploy** | Vercel (frontend) + Railway (backend) | Global CDN, auto-deploy from GitHub |
+| **CI/CD** | GitHub Actions | Automated test + deploy pipeline |
+| **Monitoring** | BetterStack | Uptime, log aggregation, alerting |
 
-> Dokumentasi teknis detail tersedia di: **[Backend README](./TEKNIS/back_end/README.md)** | **[Frontend README](./TEKNIS/front_end/README.md)**
+> 📖 Detailed technical docs: **[Backend README](./TEKNIS/back_end/README.md)** | **[Frontend README](./TEKNIS/front_end/README.md)** | **[Full Context (530 lines)](./TEKNIS/konteks.md)**
 
 ---
 
-## Model Bisnis
+## Business Model
 
 <table>
 <tr>
@@ -344,131 +343,131 @@ gantt
 
 ---
 
-## Struktur Repository
+## Repository Structure
 
 ```
 ATHENA — FIKSI 2026/
 │
-├── README.md                          ← Anda di sini
-├── LICENSE                            ← Lisensi proprietary
-├── .gitignore
+├── 📄 README.md                       ← You are here
+├── 📄 LICENSE                         ← Proprietary license
+├── 📄 .gitignore
 │
-├── ADMINISTRASI/                      ← Dokumen administrasi resmi
-│   ├── README.md
-│   ├── ATHENA_Deskripsi_Produk.pdf
-│   ├── ATHENA_Analisis_SWOT.pdf
-│   ├── ATHENA_Channel_Strategy.pdf
-│   ├── ATHENA_HPP_Produk.xlsx
-│   └── _source/                       ← File sumber (.docx)
+├── 📂 ADMINISTRASI/                   ← Official FIKSI documents
+│   ├── 📄 README.md
+│   ├── 📑 ATHENA_Deskripsi_Produk.pdf
+│   ├── 📑 ATHENA_Analisis_SWOT.pdf
+│   ├── 📑 ATHENA_Channel_Strategy.pdf
+│   ├── 📊 ATHENA_HPP_Produk.xlsx
+│   └── 📂 _source/                   ← Editable .docx source files
 │
-├── PANDUAN/                           ← Panduan kompetisi FIKSI
-│   ├── README.md
-│   └── Panduan_FIKSI_2026.pdf
+├── 📂 PANDUAN/                        ← FIKSI competition guidelines
+│   ├── 📄 README.md
+│   └── 📑 Panduan_FIKSI_2026.pdf
 │
-├── TEKNIS/                            ← Komponen teknis
-│   ├── README.md                      ← Arsitektur & diagram
-│   ├── konteks.md                     ← Dokumen konteks lengkap
-│   ├── back_end/                      ← NestJS API Server
-│   │   ├── README.md                  ← ERD, API endpoints, arsitektur
-│   │   └── src/                       ← Source code
-│   └── front_end/                     ← Vite + React PWA
-│       ├── README.md                  ← UI plan, components, design system
-│       └── src/                       ← Source code
+├── 📂 TEKNIS/                         ← Technical components
+│   ├── 📄 README.md                   ← Architecture & system diagrams
+│   ├── 📄 konteks.md                  ← Full 530-line context document
+│   ├── 📂 back_end/                   ← NestJS API Server
+│   │   ├── 📄 README.md              ← ERD, API endpoints, architecture
+│   │   └── 📂 src/                   ← Source code (TypeScript)
+│   └── 📂 front_end/                 ← Vite + React + GSAP
+│       ├── 📄 README.md              ← UI stack, components, design system
+│       └── 📂 src/                   ← Source code (TSX + CSS)
 │
-└── docs/                              ← Aset dokumentasi
-    └── images/
-        └── athena-logo.png
+└── 📂 docs/                           ← Documentation assets
+    └── 📂 images/
+        └── 🖼️ athena-logo.png
 ```
 
 ---
 
-## Cara Menjalankan
+## Quick Start
 
 ### Prerequisites
 
-- **Node.js** >= 18.x dan **npm** >= 9.x
-- **Git** (untuk version control)
-
-### Backend (NestJS)
-
-```bash
-cd TEKNIS/back_end
-npm install
-cp .env.example .env     # Konfigurasi environment variables
-npm run start:dev         # Development → http://localhost:3000
-```
+- **Node.js** >= 18.x and **npm** >= 9.x
+- **Git** for version control
 
 ### Frontend (Vite + React)
 
 ```bash
 cd TEKNIS/front_end
 npm install
-cp .env.example .env     # Konfigurasi environment variables
 npm run dev              # Development → http://localhost:5173
 ```
 
-> Dokumentasi environment variables lengkap tersedia di README masing-masing folder: [Backend](./TEKNIS/back_end/README.md#environment-variables) | [Frontend](./TEKNIS/front_end/README.md#environment-variables)
+### Backend (NestJS)
+
+```bash
+cd TEKNIS/back_end
+npm install
+cp .env.example .env     # Configure environment variables
+npm run start:dev        # Development → http://localhost:3000
+```
+
+> 📖 Full env docs: [Backend](./TEKNIS/back_end/README.md#environment-variables) | [Frontend](./TEKNIS/front_end/README.md#getting-started)
 
 ---
 
-## Untuk Dewan Juri
+## For FIKSI Judges
 
-Terima kasih telah meluangkan waktu untuk mengevaluasi proyek ATHENA. Berikut panduan navigasi repository ini:
+Thank you for evaluating ATHENA. Here’s a navigation guide:
 
-### Dokumen yang Disarankan untuk Dibaca
+### Recommended Reading Order
 
-| Prioritas | Dokumen | Isi |
-|-----------|---------|-----|
-| 1 | **README ini** | Overview lengkap produk, arsitektur, dan roadmap |
-| 2 | [Konteks Teknis](./TEKNIS/konteks.md) | Dokumen detail 530 baris: filosofi, strategi, analisis jujur |
-| 3 | [Backend README](./TEKNIS/back_end/README.md) | ERD, API endpoints, arsitektur backend |
-| 4 | [Frontend README](./TEKNIS/front_end/README.md) | UI/UX plan, component architecture, client-side ML |
-| 5 | [Deskripsi Produk](./ADMINISTRASI/ATHENA_Deskripsi_Produk.pdf) | Dokumen resmi FIKSI 2026 |
+| Priority | Document | Content |
+|----------|----------|---------|
+| 🥇 | **This README** | Complete product overview, architecture, roadmap |
+| 🥈 | [konteks.md](./TEKNIS/konteks.md) | Full 530-line deep-dive: philosophy, strategy, honest analysis |
+| 🥉 | [Backend README](./TEKNIS/back_end/README.md) | ERD (8 tables), 17 API endpoints, module architecture |
+| 4 | [Frontend README](./TEKNIS/front_end/README.md) | UI/UX stack, component architecture, client-side ML |
+| 5 | [Product Description](./ADMINISTRASI/ATHENA_Deskripsi_Produk.pdf) | Official FIKSI 2026 submission document |
 
-### Verifikasi Teknis
+### Technical Verification
 
-| Yang Bisa Diverifikasi | Cara |
-|----------------------|------|
-| **Source code backend** | `cd TEKNIS/back_end && npm run build` — memastikan project valid |
-| **Source code frontend** | `cd TEKNIS/front_end && npm run build` — memastikan project valid |
-| **ERD & Database design** | Lihat [Backend README → ERD](./TEKNIS/back_end/README.md#entity-relationship-diagram) |
-| **API design** | Lihat [Backend README → API Endpoints](./TEKNIS/back_end/README.md#api-endpoints) |
-| **Arsitektur 3-jalur** | Lihat [Teknis README → Arsitektur](./TEKNIS/README.md#arsitektur-sistem--tiga-jalur-pemrosesan) |
-| **Riset ilmiah** | Referensi paper di [Konteks](./TEKNIS/konteks.md) bagian 5.2 dan 6.2 |
+| What to Verify | How |
+|----------------|-----|
+| **Frontend builds** | `cd TEKNIS/front_end && npm run build` |
+| **Backend builds** | `cd TEKNIS/back_end && npm run build` |
+| **API documentation** | Run backend → `http://localhost:3000/docs` (Swagger UI) |
+| **Live frontend** | Run frontend → `http://localhost:5173` |
+| **ERD & Database** | See [Backend README → ERD](./TEKNIS/back_end/README.md#entity-relationship-diagram) |
+| **Scientific refs** | See [konteks.md](./TEKNIS/konteks.md) sections 5.2 and 6.2 |
 
-### Status Pengembangan
+### Development Status
 
-| Komponen | Status | Catatan |
-|----------|--------|---------|
-| Dokumen konsep & proposal | ✅ Selesai | 530 baris konteks teknis + dokumen FIKSI |
-| Repository structure | ✅ Selesai | Terorganisir dengan dokumentasi lengkap |
-| Backend scaffold (NestJS) | ✅ Selesai | Project terinitialisasi, arsitektur terencana |
-| Frontend scaffold (Vite) | ✅ Selesai | Project terinitialisasi, UI terencana |
-| ERD & database design | ✅ Selesai | 8 tabel dengan relasi lengkap |
-| API endpoint design | ✅ Selesai | 17 endpoints terdokumentasi |
-| ML pipeline design | 📋 Terencana | CA-PGD + ensemble, paper references tersedia |
-| Working prototype | 🔜 Juni 2026 | Alpha internal target bulan depan |
-| Beta deployment | 🔜 Juli 2026 | PWA + 50 beta tester |
-
----
-
-## Tim
-
-| Peran | Nama | Kontribusi |
-|-------|------|-----------|
-| Founder & Lead Developer | *[Nama]* | Arsitektur sistem, backend, ML pipeline |
-| UI/UX & Frontend | *[Nama]* | React PWA, design system, user research |
-| Business & Strategy | *[Nama]* | Model bisnis, GTM strategy, partnership |
-
-> Tim ATHENA adalah siswa PPLG yang membangun project nyata dengan stack modern. Kami tahu dengan jelas mana yang bisa dikerjakan sekarang dan mana yang akan diperkuat dengan mitra teknis dalam 6 bulan ke depan.
+| Component | Status | Notes |
+|-----------|--------|-------|
+| Concept docs & proposal | ✅ Complete | 530 lines of technical context + FIKSI docs |
+| Repository structure | ✅ Complete | Fully organized with comprehensive documentation |
+| Backend scaffold (NestJS) | ✅ Complete | Modular architecture, Swagger UI, typed DTOs |
+| Frontend landing page | ✅ Complete | Spline 3D + StarField + LightRays + Lenis smooth scroll |
+| Login/Auth UI | ✅ Complete | Social login (Google, X, Apple) + email/password |
+| ERD & database design | ✅ Complete | 8 tables with full relations |
+| API endpoint design | ✅ Complete | 17 endpoints documented |
+| ML pipeline design | 📋 Planned | CA-PGD + ensemble, paper references available |
+| Working prototype | 🔜 Jun 2026 | Alpha internal target next month |
+| Beta deployment | 🔜 Jul 2026 | PWA + 50 beta testers |
 
 ---
 
-## Lisensi
+## Team
 
-Proyek ini dilisensikan di bawah **lisensi proprietary**. Lihat file [LICENSE](./LICENSE) untuk detail lengkap.
+| Role | Name | Contribution |
+|------|------|--------------|
+| Founder & Lead Developer | *[Name]* | System architecture, backend, ML pipeline |
+| UI/UX & Frontend | *[Name]* | React PWA, design system, user research |
+| Business & Strategy | *[Name]* | Business model, GTM strategy, partnerships |
 
-Akses repository ini diberikan kepada dewan juri dan panitia FIKSI 2026 untuk keperluan evaluasi.
+> The ATHENA team consists of PPLG students building real projects with modern stacks. We know clearly what we can build now and what we’ll strengthen with technical partners in the next 6 months.
+
+---
+
+## License
+
+This project is licensed under a **proprietary license**. See the [LICENSE](./LICENSE) file for full details.
+
+Repository access is granted to FIKSI 2026 judges and organizing committee for evaluation purposes.
 
 ---
 

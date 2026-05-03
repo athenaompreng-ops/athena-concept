@@ -1,15 +1,17 @@
-# 🎨 ATHENA Frontend — Web Client (PWA)
+# 🎨 ATHENA Frontend — Immersive Landing Experience
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+  <img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Vite_8-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS"/>
-  <img src="https://img.shields.io/badge/TensorFlow.js-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow.js"/>
-  <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA"/>
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" alt="GSAP"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion"/>
+  <img src="https://img.shields.io/badge/Lenis-000000?style=for-the-badge" alt="Lenis"/>
+  <img src="https://img.shields.io/badge/Spline_3D-FF3366?style=for-the-badge" alt="Spline"/>
+  <img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white" alt="WebGL"/>
 </p>
 
-Progressive Web App untuk platform ATHENA. Dibangun dengan **Vite + React + TypeScript** — mendukung client-side 4A Shield processing (TensorFlow.js) untuk free tier dan real-time job tracking via WebSocket untuk paid tier.
+A world-class landing experience for the ATHENA platform. Built with **Vite + React + TypeScript**, featuring a cinematic **Spline 3D black hole** background, **canvas star field** with mouse parallax, **volumetric WebGL light rays**, and butter-smooth **Lenis + GSAP ScrollTrigger** animations.
 
 ---
 
@@ -46,19 +48,21 @@ Progressive Web App untuk platform ATHENA. Dibangun dengan **Vite + React + Type
 
 ## Tech Stack
 
-| Layer | Teknologi | Peran |
-|-------|-----------|-------|
-| Build Tool | Vite 6 | HMR, ESM native, build optimization |
+| Layer | Technology | Role |
+|-------|-----------|------|
+| Build Tool | Vite 8 | HMR, ESM native, build optimization |
 | UI Framework | React 19 + TypeScript | Component-based UI, strict type safety |
-| Styling | TailwindCSS 4 | Utility-first CSS, responsive design |
-| State | Zustand | Lightweight global state (auth, credits, jobs) |
-| Routing | React Router 7 | SPA navigation, protected routes, lazy loading |
+| Styling | Vanilla CSS (BEM) | Custom design system, no framework overhead |
+| Smooth Scroll | Lenis | Silky-smooth scrolling, synced with GSAP ticker |
+| Scroll Animations | GSAP + ScrollTrigger | Scroll-driven entrance animations for every section |
+| UI Animations | Framer Motion | Component mount/unmount transitions, navbar hide/show |
+| 3D Background | Spline (iframe) | Cinematic black hole effect in hero section |
+| WebGL Effects | OGL (custom shader) | Volumetric light rays with mouse-follow parallax |
+| Canvas Effects | HTML5 Canvas 2D | Twinkling star field with depth layers and parallax |
+| Routing | React Router 7 | SPA navigation, lazy loading |
 | HTTP Client | Axios | API communication, interceptors, retry logic |
-| Real-time | Socket.io Client | WebSocket untuk job progress real-time |
-| Client ML | TensorFlow.js + ONNX.js | Free tier: 4A Shield ringan di browser |
 | Forms | React Hook Form + Zod | Form validation, type-safe schemas |
-| Animation | Framer Motion | Smooth page transitions, micro-animations |
-| PWA | Workbox (vite-plugin-pwa) | Service worker, offline cache, installable |
+| Icons | Lucide React | Consistent icon set |
 | Testing | Vitest + Testing Library | Unit & integration tests |
 
 ---
