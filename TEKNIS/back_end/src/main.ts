@@ -88,7 +88,7 @@ Gunakan Bearer token (JWT) dari Supabase Auth untuk endpoint yang membutuhkan au
   });
 
   const port = process.env.PORT ?? 3000;
-  await app.listen(port);
+  await app.listen(port, '0.0.0.0');
 
   console.log(`\n🏛️  ATHENA API is running on: http://localhost:${port}`);
   console.log(`📚  Swagger UI available at: http://localhost:${port}/docs`);
